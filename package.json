@@ -1,5 +1,5 @@
 {
-  "name": "react-todo-app",
+  "name": "todo",
   "version": "1.0.2",
   "description": "A React powered todo app.",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
     "bundle": "webpack -p"
   },
   "keywords": [],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "author": "Ardit Kurti",
   "license": "MIT",
   "dependencies": {
     "react": "^15.4.1",
@@ -27,7 +27,7 @@
     "webpack-dev-server": "^1.16.2",
     "style-loader": "^0.13.1"
   },
-  "homepage": "https://github.com/IonicaBizau/react-todo-app#readme",
+  "homepage": "https://github.com/ArditKurti/todo#readme",
   "files": [
     "bin/",
     "app/",
@@ -45,10 +45,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/react-todo-app.git"
-  },
-  "bugs": {
-    "url": "https://github.com/IonicaBizau/react-todo-app/issues"
+    "url": "git+ssh://git@github.com/ArditKurti/todo.git"
   },
   "blah": {
     "show_installation": true,
@@ -59,14 +56,13 @@
     "installation_command": {
       "language": "sh",
       "content": [
-        "git clone https://github.com/IonicaBizau/react-todo-app/",
-        "cd react-todo-app",
+        "git clone https://github.com/ArditKurti/todo/",
+        "cd todo",
         "npm i",
         "npm run start:dev",
         "open localhost:8080",
-        "",
-        "# To build the app for production, run the following command:",
-        "npm run bundle"
+        ""
+   
       ]
     }
   }
